@@ -120,7 +120,7 @@ function cba_get_books( WP_REST_Request $request ) {
             'order'          => 'DESC',
         )
     );
-
+ 
     $data = array();
 
     foreach ( $books as $book ) {
